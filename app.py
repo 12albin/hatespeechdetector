@@ -10,6 +10,7 @@ import joblib
 import nltk
 import os
 # Step 1: Specify the directory where 'punkt' is stored
+
 nltk_data_dir = 'nltk_data'  # Your custom path
 os.makedirs(nltk_data_dir, exist_ok=True)  # Ensure the directory exists
 
